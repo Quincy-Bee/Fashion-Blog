@@ -1,0 +1,142 @@
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    color: #333333;
+    background-color: #ffffff;
+    line-height: 1.6;
+    padding: 2rem;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+/* Header  */
+header {
+    margin-bottom: 3rem;
+}
+
+header h1 {
+    color: #e05345; /* The specific rust/tomato red from the mockup */
+    font-size: 3.8rem;
+    font-weight: 300;
+    letter-spacing: -1px;
+    margin-bottom: 0.2rem;
+}
+
+header p {
+    font-size: 1.6rem;
+    font-weight: 300;
+    color: #111111;
+    margin-bottom: 2rem;
+}
+
+/*  Navigation (Header snd Footer)  */
+nav {
+    border-bottom: 1px solid #e0e0e0;
+    padding-bottom: 1.5rem;
+    margin-bottom: 2rem;
+}
+
+
+nav li {
+    display: inline-block;
+    list-style: none;
+    margin-right: 1.5rem;
+}
+
+nav a {
+    color: #888888;
+    text-decoration: none;
+    font-size: 1.15rem;
+    font-weight: 300;
+    border-bottom: 1px solid #888888; /* Simulated underline from mockup */
+    padding-bottom: 2px;
+}
+
+nav a:hover {
+    color: #e05345;
+    border-bottom-color: #e05345;
+}
+
+/* --- Blog Post Layout --- */
+main {
+    margin-bottom: 4rem;
+}
+
+/* Date  */
+body > p {
+    color: #aaaaaa;
+    font-size: 1.8rem;
+    font-weight: 200;
+    margin-bottom: 0.5rem;
+    letter-spacing: 1px;
+}
+
+/* Title */
+article h1 {
+    font-size: 2.8rem;
+    font-weight: 300;
+    color: #111111;
+    margin-bottom: 1.5rem;
+}
+
+/* Image */
+article img {
+    width: 100%;
+    height: auto;
+    display: block;
+    margin-bottom: 2rem;
+}
+
+/* Body Text */
+article p {
+    font-size: 1.15rem;
+    font-weight: 300;
+    color: #555555;
+    text-align: justify; /* Force neat, editorial block alignment */
+    margin-bottom: 1.5rem;
+}
+
+/* Editorial first letter */
+article p::first-letter {
+    font-size: 5.5rem;
+    font-weight: 300;
+    float: left;
+    line-height: 0.85;
+    margin-top: 0.15rem;
+    margin-right: 0.75rem;
+    color: #777777;
+}
+
+/* "continues..."*/
+.continue {
+    display: block;
+    color: #e05345;
+    text-decoration: none;
+    font-weight: bold;
+    text-align: right;
+    margin-bottom: 2rem;
+}
+
+hr {
+    border: 0;
+    border-top: 1px solid #e0e0e0;
+    margin: 3rem 0;
+}
+
+/* --- Footer --- */
+footer nav {
+    border-bottom: none;
+    padding-bottom: 0;
+    margin-bottom: 1rem;
+}
+
+footer p {
+    font-size: 0.9rem;
+    color: #aaaaaa;
+}
